@@ -20,8 +20,7 @@ toc: false
 ::: {.g-col-6}
 
 [Spunti di riflessione e di dialogo in vista delle elezioni comunali che si terranno nel giugno 2024. <br><br>
-La chiave di lettura sulla situazione della città e del territorio è offerta dalla Dottrina Sociale della Chiesa Cattolica. <br><br>
-Le proposte concrete per migliorare l’organizzazione e la gestione della città emergono da un dialogo aperto, pacato e costruttivo, condotto nell'arco di alcuni mesi dal Servizio Diocesano della Pastorale sociale con vari esperti e professionisti del territorio.]{style="color:#77501a"}
+La chiave di lettura sulla situazione della città e del territorio è offerta dalla Dottrina Sociale della Chiesa Cattolica.<br>Le proposte concrete per migliorare l’organizzazione e la gestione della città emergono da un dialogo aperto, pacato e costruttivo, condotto nell'arco di alcuni mesi dal Servizio Diocesano della Pastorale sociale con vari esperti e professionisti del territorio.]{style="color:#77501a"}
  
 <!-- <a href='pdf/IdeeXPavia_apr2024.pdf' target="_blank"> Leggi in una nuova finestra </a> -->
 
@@ -36,7 +35,7 @@ library(fs)
 
 Sono disponibili e scaricabili qui sotto:
 
-1. Il documento integrale
++ Il documento integrale
 ```{r}
 #| echo: false
 #| eval: true
@@ -57,7 +56,7 @@ download_file(
 )
 ```
 
-2. Un breve sommario 
++ Un breve sommario 
 ```{r}
 #| echo: false
 #| eval: true
