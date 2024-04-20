@@ -1,6 +1,85 @@
 ---
-title: "Idee per Pavia"
+title: ""
+toc: false
 ---
-scrivi qlc
+
+<!-- #### First title -->
+
+<!-- ```{=html} -->
+<!-- <iframe  src="pdf/IdeeXPavia_apr2024.pdf"  width=350 height=450 style="border: 0.5px solid #2e3846;"></iframe> -->
+<!-- ``` -->
+
+:::: {.grid}
+::: {.g-col-6}
+
+[![](pdf/screenshot_doc.png)](./pdf/IdeeXPavia_apr2024.pdf)
+
+<!-- ![](pdf/screenshot_doc.png)  -->
+:::
+
+::: {.g-col-6}
+
+[Spunti di riflessione e di dialogo in vista delle elezioni comunali che si terranno nel giugno 2024. <br><br>
+La chiave di lettura sulla situazione della città e del territorio è offerta dalla Dottrina Sociale della Chiesa Cattolica. <br><br>
+Le proposte concrete per migliorare l’organizzazione e la gestione della città emergono da un dialogo aperto, pacato e costruttivo, condotto nell'arco di alcuni mesi dal Servizio Diocesano della Pastorale sociale con vari esperti e professionisti del territorio.]{style="color:#77501a"}
+ 
+<!-- <a href='pdf/IdeeXPavia_apr2024.pdf' target="_blank"> Leggi in una nuova finestra </a> -->
+
+```{r}
+#| eval: true
+#| echo: false
+#| output: true
+
+library(downloadthis)
+library(fs) 
+```
+
+Sono disponibili e scaricabili qui sotto:
+
+1. Il documento integrale
+```{r}
+#| echo: false
+#| eval: true
+#| output: true
+
+library(fs) 
+
+# using a param for which file 
+download_file(
+  path =  here::here("pdf",  "IdeeXPavia_apr2024.pdf" ), # param
+  output_name = fs::path_ext_remove ( "IdeeXPavia_apr2024.pdf"), # param + no extension.... 
+  output_extension = ".pdf",  
+  button_label = " Scarica documento 2024 in PDF",
+  button_type = "default",
+  has_icon = TRUE,
+  icon = "fas fa-file-pdf",#"fa-brands fa-r-project",
+  self_contained = FALSE
+)
+```
+
+2. Un breve sommario 
+```{r}
+#| echo: false
+#| eval: true
+#| output: true
+
+library(fs) 
+
+# using a param for which file 
+download_file(
+  path =  here::here("pdf",  "sintesi.pdf" ), # param
+  output_name = fs::path_ext_remove ( "sintesi.pdf"), # param + no extension.... 
+  output_extension = ".pdf",  
+  button_label = " Scarica sommario in PDF",
+  button_type = "default",
+  has_icon = TRUE,
+  icon = "fas fa-file-pdf",#"fa-brands fa-r-project",
+  self_contained = FALSE
+)
+```
+:::
+::::
+
+ 
 
  
