@@ -1,0 +1,56 @@
+/*-- scss:defaults --*/
+// https://ucsb-meds.github.io/customizing-quarto-websites/#/title-slide
+
+/* Note:
+In .scss files, `//` denote single line comments. Multi-line comments start with `/*` and end at the next
+*/
+
+
+/*----------------------- FONTS ----------------------- */
+// import here then set in _quarto.yml
+
+// import google fonts
+@import url('https://fonts.googleapis.com/css2?family=Lato');
+@import url('https://fonts.googleapis.com/css2?family=Chivo');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;500;700&family=Inconsolata:wght@200&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+// use litera as the base
+$theme: "litera" !default;
+
+// use Lato font if available
+$font-family-sans-serif:  "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !default;
+
+/*----------------------- COLORS ----------------------- */
+// Define Color variables `$var-name: value;`
+$rosso_diocesi: #77221b;
+$rosso_diocesi_light: #bb918d;
+$rosso_diocesi_extralight: #e4d3d1;
+$grigio_diocesi_dark:#191919;
+$grigio_diocesi:#555555;
+$grigio_diocesi_light:#aaaaaa;
+$grigio_diocesi__extralight:#dddddd;
+$bianco_diocesi: #FEFFFF;
+$cream: #FDFBF7;
+
+// Base document colors
+$navbar-bg: #77221b; // navbar
+$navbar-fg: #FEFFFF; // navbar foreground elements
+$navbar-hl: #ecd1ab; // highlight color when hovering over navbar links
+$body-bg: #FDFBF7; // page background
+$body-color: #191919; // page text
+$footer-bg: #bb918d; // footer
+$link-color: #1a4177; // hyperlinks
+$gold: #77501a; // hyperlinks
+
+// Inline code
+$code-bg: $rosso_diocesi; // inline code background color
+$code-color: $grigio_diocesi_light; // inline code text color
+
+// Code blocks
+$code-block-bg: $rosso_diocesi; // code block background color
+
+
+
+
+/*-- scss:rules --*/

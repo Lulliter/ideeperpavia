@@ -12,20 +12,20 @@ execute:
 
 website:
   title: "Idee per Pavia"
-  site-url: https://lulliter.github.io/ideeperpavia #"https://github.com/Lulliter/ideexpavia"
+  site-url: https://ideeperpavia.com # https://lulliter.github.io/ideeperpavia #"https://github.com/Lulliter/ideexpavia"
   favicon: images/icons8-walking-bridge-32.png
   search: false # no magnifier on navbar
 
   page-footer:
     left: |
-      {{< fa regular fa copyright >}} Pastorale Sociale del Lavoro 2024
+      {{< fa regular copyright >}} [Diocesi di Pavia 2024](https://www.diocesi.pavia.it/)
     right: |
-      Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)
-    background: "#E4D3D1"
+      Pastorale sociale e del lavoro
+# Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)
 
   navbar:
     pinned: true
-    background: "#77221b" # "#72aed8" # "#b78a92" #  "#0084e6" "#EE6A24"
+    # background: "#77221b" # "#72aed8" # "#b78a92" #  "#0084e6" "#EE6A24"
     right:
       - text: "Proposte"
         icon: house-fill # https://icons.getbootstrap.com/?q=home
@@ -47,12 +47,13 @@ format:
     # reference-location: margin
     footnotes-hover: true
     fontsize: 1em
-    theme: theme/Lulas_theme.scss
+    theme: theme/diocesi.scss
     # css: theme/styles.css
     ##----- code highlighting style
     highlight-style: monokai # atom-one # github # dracula
     mainfont: "Lato"
     monofont: "Fira Mono"
+
 
 
 
