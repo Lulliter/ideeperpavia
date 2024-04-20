@@ -1,6 +1,49 @@
 ---
-title: "Chi siamo"
+title: "L'obiettivo del lavoro e i suoi promotori"
+toc: false
 ---
 
+Il documento qui presentato, [***"Idee per Pavia: una scrittura collettiva per il bene comune"***]{style="color:#77501a"}, è stato elaborato dal **Servizio per la pastorale sociale e del Lavoro**, uno dei Servizi Pastorali della [Diocesi di Pavia](https://www.diocesi.pavia.it/), e raccoglie alcune idee emerse dal dialogo con vari esperti e professionisti operanti nel territorio, svoltosi tra Novembre 2023 e Febbraio 2024. 
 
-scrivi qlc
+L'intento è quello di offrire all'intera cittadinanza alcuni spunti di riflessione e di discussione in vista delle elezioni comunali (che si terranno 8 e 9 giugno 2024), quando saremo chiamati a scegliere i nostri rappresentanti nel Comune di Pavia. 
+
+## Un cammino di coinvolgimento della Diocesi e di impegno per la città 
+Questo lavoro è, in realtà, l'ultima tappa di un cammino partito all’inizio del 2023, quando le Parrocchie di Pavia hanno voluto commissionare al predetto Servizio diocesano uno studio approfondito sulle opportunità e sulle sfide della nostra città, come ausilio al Vescovo di Pavia in occasione della sua visita pastorale alla medesima.
+
+Tale approfondimento ha portato alla pubblicazione, a fine 2023, del rapporto dal titolo [***"Spunti di discussione sul futuro della città di Pavia"***]{style="color:#77501a"}, scaricabile qui sotto.
+
+```{r}
+#| eval: true
+#| echo: false
+#| output: true
+
+library(downloadthis)
+library(fs) 
+```
+
+```{r}
+#| echo: false
+#| eval: true
+#| output: true
+
+library(fs) 
+
+# using a param for which file 
+download_file(
+  path =  here::here("pdf",  "spuntiXpavia_2023_compressed.pdf" ),  
+  output_name = fs::path_ext_remove ( "spuntiXpavia_2023_compressed.pdf"),  
+  output_extension = ".pdf",  
+  button_label = " Scarica documento 2023 in PDF",
+  button_type = "default",
+  has_icon = TRUE,
+  icon = "fas fa-file-pdf",#"fa-brands fa-r-project",
+  self_contained = FALSE
+)
+```
+
+
+## Per saperne di più
+
+Per informazioni sulle iniziative del **Servizio per la pastorale sociale e del Lavoro**, inclusi gli eventi promossi dalla "Scuola di Cittadinanza e Partecipazione", consultare il sito della [Fondazione Laboratorio di Nazareth](https://www.laboratoriodinazareth.it/).
+
+  
