@@ -33,7 +33,7 @@ library(downloadthis)
 library(fs) 
 ```
 
-Sono disponibili e scaricabili qui sotto: 1) il documento integrale **"Idee per Pavia"** pubblicato nell'aprile 2024, 2) un sommario dello stesso, 3) un precedente studio approfondito sulla città pubblicato nel 2023.
+Sono disponibili e scaricabili qui sotto: 1) il documento integrale **"Idee per Pavia"** pubblicato nell'aprile 2024, e 2) un sommario dello stesso.
 
   
 ```{r}
