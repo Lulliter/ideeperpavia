@@ -10,17 +10,17 @@ toc: false
 <!-- ``` -->
 
 :::: {.grid}
-::: {.g-col-6}
+::: {.g-col-4}
 
 [![](pdf/screenshot_doc.png)](./pdf/IdeeXPavia_apr2024.pdf)
 
 <!-- ![](pdf/screenshot_doc.png)  -->
 :::
 
-::: {.g-col-6}
+::: {.g-col-8}
 
 [Spunti di riflessione e di dialogo in vista delle elezioni comunali che si terranno nel giugno 2024. <br><br>
-La chiave di lettura sulla situazione della città e del territorio è offerta dalla Dottrina Sociale della Chiesa Cattolica.<br>Le proposte concrete per migliorare l’organizzazione e la gestione della città emergono da un dialogo aperto, pacato e costruttivo, condotto nell'arco di alcuni mesi dal Servizio Diocesano della Pastorale sociale con vari esperti e professionisti del territorio.]{style="color:#77501a"}
+La chiave di lettura sulla situazione della città e del territorio è offerta dalla dottrina sociale della Chiesa cattolica.<br>Le proposte concrete per migliorare l’organizzazione e la gestione della città emergono da un dialogo aperto, pacato e costruttivo, condotto nell'arco di alcuni mesi dal Servizio per la pastorale sociale della Diocesi di Pavia con vari esperti e professionisti del territorio.]{style="color:#77501a"}
  
 <!-- <a href='pdf/IdeeXPavia_apr2024.pdf' target="_blank"> Leggi in una nuova finestra </a> -->
 
@@ -33,9 +33,9 @@ library(downloadthis)
 library(fs) 
 ```
 
-Sono disponibili e scaricabili qui sotto:
+Sono disponibili e scaricabili qui sotto: 1) il documento integrale **"Idee per Pavia"** pubblicato nell'aprile 2024, 2) un sommario dello stesso, 3) un precedente studio approfondito sulla città pubblicato nel 2023.
 
-+ Il documento integrale
+  
 ```{r}
 #| echo: false
 #| eval: true
@@ -48,15 +48,15 @@ download_file(
   path =  here::here("pdf",  "IdeeXPavia_apr2024.pdf" ), # param
   output_name = fs::path_ext_remove ( "IdeeXPavia_apr2024.pdf"), # param + no extension.... 
   output_extension = ".pdf",  
-  button_label = " Scarica documento 2024 in PDF",
-  button_type = "default",
+  button_label = " Idee per Pavia (2024) PDF",
+  button_type = "success",
   has_icon = TRUE,
   icon = "fas fa-file-pdf",#"fa-brands fa-r-project",
   self_contained = FALSE
 )
 ```
 
-+ Un breve sommario 
+<br>
 ```{r}
 #| echo: false
 #| eval: true
@@ -69,7 +69,28 @@ download_file(
   path =  here::here("pdf",  "sintesi.pdf" ), # param
   output_name = fs::path_ext_remove ( "sintesi.pdf"), # param + no extension.... 
   output_extension = ".pdf",  
-  button_label = " Scarica sommario in PDF",
+  button_label = "Idee per Pavia (2024) PDF - Sommario",
+  button_type = "success",
+  has_icon = TRUE,
+  icon = "fas fa-file-pdf",#"fa-brands fa-r-project",
+  self_contained = FALSE
+)
+```
+
+<br>
+```{r}
+#| echo: false
+#| eval: true
+#| output: true
+
+library(fs) 
+
+# using a param for which file 
+download_file(
+  path =  here::here("pdf",  "spuntiXpavia_2023_compressed.pdf" ), # param
+  output_name = fs::path_ext_remove ( "spuntiXpavia_2023_compressed.pdf"), # param + no extension.... 
+  output_extension = ".pdf",  
+  button_label = " Studio su Pavia (2023) PDF",
   button_type = "default",
   has_icon = TRUE,
   icon = "fas fa-file-pdf",#"fa-brands fa-r-project",

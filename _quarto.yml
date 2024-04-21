@@ -18,25 +18,24 @@ website:
 
   page-footer:
     left: |
-      {{< fa regular copyright >}} [Diocesi di Pavia 2024](https://www.diocesi.pavia.it/)
-    right: |
-      Pastorale sociale e del lavoro
+      {{< fa regular copyright >}} Servizio per la pastorale sociale della Diocesi di Pavia 2024
+# right: |
+#   Pastorale sociale e del lavoro
 # Made with {{< fa brands r-project >}} and [Quarto](https://quarto.org/)
 
   navbar:
     pinned: true
     # background: "#77221b" # "#72aed8" # "#b78a92" #  "#0084e6" "#EE6A24"
     right:
-      - text: "Proposte"
-        icon: house-fill # https://icons.getbootstrap.com/?q=home
+      - text: "{{< fa regular house >}}"
+      # - icon: house-fill # https://icons.getbootstrap.com/?q=home
         href: index.qmd
-      # - text: "Notes"
-      #   icon: archive-fill #  archive-fill # https://icons.getbootstrap.com/?q=home
-      #   href: 01_pnrr.qmd
       - text: "Chi siamo"
         icon: people-fill # https://icons.getbootstrap.com/?q=home
         href: noi.qmd
-
+      # - text: "Notes"
+      #   icon: archive-fill #  archive-fill # https://icons.getbootstrap.com/?q=home
+      #   href: 01_pnrr.qmd
 format:
   html:
     toc: true
@@ -53,7 +52,11 @@ format:
     highlight-style: monokai # atom-one # github # dracula
     mainfont: "Lato"
     monofont: "Fira Mono"
-
+#  html:
+    grid:
+      body-width: 2000px
+      sidebar-width: 0px # non mi serve perche non c'e'
+      margin-width: 300px
 
 
 
