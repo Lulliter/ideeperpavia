@@ -19,8 +19,8 @@ toc: false
 
 ::: {.g-col-8}
 
-[Spunti di riflessione e di dialogo in vista delle elezioni comunali che si terranno nel giugno 2024. <br><br>
-La chiave di lettura sulla situazione della città e del territorio è offerta dalla dottrina sociale della Chiesa cattolica.<br>Le proposte concrete per migliorare l’organizzazione e la gestione della città emergono da un dialogo aperto, pacato e costruttivo, condotto nell'arco di alcuni mesi dal Servizio per la pastorale sociale della Diocesi di Pavia con vari esperti e professionisti del territorio.]{style="color:#77501a"}
+[Spunti di riflessione e di dialogo in vista delle elezioni amministrative, previste per i Comuni di Pavia e Provincia a giugno 2024. <br><br>
+La chiave di lettura sulla situazione della città e del territorio è offerta dalla dottrina sociale della Chiesa cattolica.<br>Le proposte concrete per migliorare l’organizzazione e l'amministrazione della città emergono da un dialogo aperto, pacato e costruttivo, condotto nell'arco di alcuni mesi dal Servizio per la pastorale sociale della Diocesi di Pavia con vari esperti e professionisti del territorio.]{style="color:#77501a"}
  
 <!-- <a href='pdf/IdeeXPavia_apr2024.pdf' target="_blank"> Leggi in una nuova finestra </a> -->
 
@@ -32,7 +32,7 @@ La chiave di lettura sulla situazione della città e del territorio è offerta d
 library(downloadthis)
 library(fs) 
 ```
-
+<br><br>
 Sono disponibili e scaricabili qui sotto: 1) il documento integrale **"Idee per Pavia"** pubblicato nell'aprile 2024, e 2) un sommario dello stesso.
 
   
