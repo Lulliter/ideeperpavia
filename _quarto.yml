@@ -37,7 +37,7 @@ website:
         href: noi.qmd
       - text: "Domande 25 Maggio"
         icon: chat-square-text-fill #  archive-fill # https://icons.getbootstrap.com/?q=home
-        href: questions.qmd
+        href: domande.qmd
 format:
   html:
     toc: true
