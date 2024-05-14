@@ -16,11 +16,14 @@ library(fs)
 ```
 
  
-Vi invitiamo a formulare domande da sottoporre ai candidati che interverranno all'[**Incontro sul documento "Idee per Pavia" con i candidati alla carica di Sindaco del Comune di Pavia, Alessandro Cantoni e Michele Lissia**]{style="color: 	#1b7722"}, promosso dalla Scuola di Cittadinanza e Partecipazione.
+Vi invitiamo a formulare domande per l'[**Incontro con i candidati alla carica di Sindaco del Comune di Pavia, Alessandro Cantoni e Michele Lissia**]{style="color: 	#1b7722"}, promosso dalla Scuola di Cittadinanza e Partecipazione.
 
 <!-- (Locandina a questo [link](pdf/locandina.pdf)).   -->
 
-#### Utilizza il modulo Google (qui sotto) per inviare la tua domanda
+[**Compila la casella qui sotto e premi "*Invia*" per farci avere la tua domanda**]{style="color:#77221b"}
 
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd8Z27s31B9pDVXJBsyLocrGKCyNOgX5hgGRGgaM9w1Wgae8w/viewform?embedded=true" width="640" height="573" frameborder="0" marginheight="0" marginwidth="0">Caricamento…</iframe>
  
+
+
+<!-- Se avete domande da sottoporre ai candidati durante il dibattito con il pubblico, vi invitiamo a inviarcele in anticipo (meglio se concise e concrete). Potete farlo rispondendo direttamente sul sito: [https://ideeperpavia.com/domande.html](https://ideeperpavia.com/domande.html) -->
