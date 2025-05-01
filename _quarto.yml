@@ -12,7 +12,7 @@ execute:
 
 website:
   title: "Idee per Pavia"
-  site-url: https://ideeperpavia.com # https://lulliter.github.io/ideeperpavia #"https://github.com/Lulliter/ideexpavia"
+  site-url: https://lulliter.github.io/ideeperpavia/ #"https://github.com/Lulliter/ideexpavia"
   favicon: images/icons8-walking-bridge-32.png
   search: false # no magnifier on navbar
   # Account Google Mktg "Lulliter github (UA-128632724)" collegato a luisamimmi.org

@@ -26,4 +26,4 @@ Vi invitiamo a formulare domande per l'[**Incontro con i candidati alla carica d
  
 
 
-<!-- Se avete domande da sottoporre ai candidati durante il dibattito con il pubblico, vi invitiamo a inviarcele in anticipo (meglio se concise e concrete). Potete farlo rispondendo direttamente sul sito: [https://ideeperpavia.com/domande.html](https://ideeperpavia.com/domande.html) -->
+<!-- Se avete domande da sottoporre ai candidati durante il dibattito con il pubblico, vi invitiamo a inviarcele in anticipo (meglio se concise e concrete). Potete farlo rispondendo direttamente sul sito: [https://lulliter.github.io/ideeperpavia/domande.html](https://lulliter.github.io/ideeperpavia/domande.html) -->
